@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+header{
+    background-color: #295F98;
+    padding: 16px 10px;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: black;
+    padding: 15px;
+    border-radius: 50px;
+    white-space: nowrap;
+}
+
+
+@media (min-width: 700px) {
+    .homepage {
+        display: none;
+    }
+
+    .img-cont{
+        display:block
+    }
+
+    .img-cont img  {
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .nav-item {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .img-cont {
+        display: none;
+    }
+
+    .homepage {
+        display: block;
+    }
+}
+
+@media (max-width: 550px) {
+    .nav-item {
+        font-size: 10px;
+        padding: 7px;
+    }
+    header nav {
+        gap: 2px;
+    }
+}
+
+
+footer {
+    background-color: #295F98;
+    color: white;
+    font-size: 14px;
+    white-space: nowrap;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-footer-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.info-cont{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hours p,h4{
+    margin: 0;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.social-media a img {
+    width: 40px;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-contact small {
+    margin: 0;
+    white-space: normal;
+    text-align: center;
+}
+
+.footer-contact img {
+    width: 120px;
+}
+
+
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .info-cont{
+        gap: 20px;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,29 @@
+main{
+    background-color: #CDC2A5;
+}
+
+.sec-main-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sec-main-banner img{
+    width: 90%;
+    max-width: 1200px;
+}
+
+.sec-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-info div{
+    max-width: 1200px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

@@ -1,0 +1,146 @@
+main{
+    background-color: #CDC2A5;
+}
+
+
+.sec-contact{
+    padding: 40px 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+.sec-contact-cont{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.sec-contact-cont div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.sec-contact-cont div h2, p{
+    margin: 0;
+}
+
+.img-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-img{
+    width: 45%;
+    min-width: 350px;
+    max-width: 500px;
+}
+
+.skeleton-img{
+    width: 45%;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+@media (max-width: 700px) {
+    .skeleton-img{
+        display: none;
+    }
+}
+
+@media (min-width: 900px) {
+    .sec-contact-cont {
+        font-size: 1.2rem;
+    }
+}
+
+.sec-contact-cont form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sec-contact-cont form input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #295F98;
+    color: white;
+}
+
+.sec-contact-cont form textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #295F98;
+    color: white;
+    resize: none;
+    height: 100px;
+}
+
+.sec-contact-cont form button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 200px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.sec-img-separator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-img-separator img{
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+
+.sec-future{
+    padding: 40px 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+.sec-future-cont{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.sec-future-cont div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.sec-future-cont img{
+    width: 55%;
+    max-width: 500px;
+}
+
+@media (min-width: 900px) {
+    .sec-future-cont {
+        font-size: 1.2rem;
+    }
+}
